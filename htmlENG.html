@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="cssAnimation.css">
+    <script src="javaScript.js"></script> 
+
+<title>Kinga Niejadlik CV</title>
+</head>
+<body>
+    <div class="header-grid-conteiner">
+        <a class="header-grid-item" href="#box1"><h2>Personal data</h2></a>
+        <a class="header-grid-item" href="#box3"><h2>Work experience</h2></a>
+        <a class="header-grid-item" href="#box5"><h2>Education</h2></a>
+        <a class="header-grid-item" href="#box7"><h2>Abilities</h2></a>
+        <a class="header-grid-item" href="#box13"><h2>2D graphics</h2></a>
+        <a class="header-grid-item" href="#box15"><h2>3D porjects</h2></a>
+        <a class="header-grid-item" href="#box17"><h2>Business cards</h2></a>
+        <a class="header-grid-item" href="#box19"><h2>Music video</h2></a>
+        <a class="header-grid-item" href="#panel3"><h2>Projects</h2></a>
+        <button class="button" onclick="location.href='index.html';"><img class="flag" src="image/poland-flag.png"></button>
+    </div>
+
+    <div class = "panel" id="panel1">
+        <h1>Curriculum Vitae</h1><br>
+    </div>
+
+   
+    <a id="link" href="KingaNiejadlikCv.pdf" download target="_blank"><h5>Download pdf</h5></a>
+    
+
+    <div class="luka"></div>
+    <div class="luka"></div>
+    <div class="luka"></div>
+
+
+    <div class= "box" id="box1" style="display: block;" onclick="SwapDivsWithClick('box1','box2')">
+            <h2>Personal data</h2>       
+    </div>
+    <div class= "box" id="box2" style="display: none;" onclick="SwapDivsWithClick('box1','box2')">
+        <div class="rownoscDO">
+        <div class="lewaKolumna">
+        <img class="cvJpg" src="image/zdjCVdone.jpg"> 
+        </div>
+
+        <div class="laczenieKolumn"> 
+
+         <div class="srodekKolumna">
+             Firstname:<br>
+             Surname:<br>
+             Age:<br>
+             State:<br>
+             E-mail:<br>
+             Telephone:
+         </div>
+         <div class="prawaKolumna">
+            Kinga<br>
+            Niejadlik<br>
+            22<br>
+            IT student<br>
+            kinga.niejadlik@gmail.com<br>
+            575250211 
+        </div>
+        </div>
+
+    </div>
+    </div>
+
+    <div class="luka"></div>
+
+    <div class= "box" id="box3" style="display: block;" onclick="SwapDivsWithClick('box3','box4')">
+        <h2>Work experience</h2>       
+    </div>
+    <div class= "box" id="box4" style="display: none;" onclick="SwapDivsWithClick('box3','box4')">
+     
+        <div class="doswiadczenieZawartosc">
+            01.01.2019-23.03.2020 Customer service in <a href="https://imersja.pl/" target="_blank" class="firmy">Imersja VR</a>in Katowice<br>
+            <h7>- Support for organized events (birthdays, bachelor parties, hen parties, corporate events)</h7><br>
+            <h7>- Learning how to use VR equipment and explaining the basic game mechanics</h7><br>
+            <h7>- Servicing of VR equipment (Oculus Rift 2 + treadmill Omni)</h7><br>
+            <h7>- Matching games to customers needs</h7><br>
+            <br>
+            <br>
+            01.07.2018-30.08.2018 Service technician in<a href="https://www.exorigo-upos.pl/pl/kariera/oferty-pracy/810-technik-serwisu-4" target="_blank"class="firmy"> Exorgio Upos</a> in Gliwice<br>
+            <h7>- Servicing companie's equipment</h7><br>
+            <h7>- Diagnosing and solving IT problems</h7><br>
+            <br>
+            <br>
+            28.07.2016-05.06.2018 Customer service in pawnshop <a href="http://lombardwomi.pl/" target="_blank" class="firmy">WOMI</a>in Zabrze<br>
+            <h7>- Sale and purchase items</h7><br>
+            <h7>- Pricing purchased items</h7><br>
+            <h7>- Keeping records</h7><br>
+            <br>
+            <br>
+        </div>  
+        
+    </div>
+
+    <div class="luka"></div>
+
+    <div class= "box" id="box5" style="display: block;" onclick="SwapDivsWithClick('box5','box6')">
+        <h2>Education</h2>       
+    </div>
+    <div class= "box" id="box6" style="display: none;" onclick="SwapDivsWithClick('box5','box6')">
+    
+        <div class="wyksztalcenieZawartosc" id="wyksztalcenie1">
+            2020 - present University of Economics in Katowice (Master)
+        </div>
+
+        <div class="line"></div>
+
+        <div class="wyksztalcenieZawartosc" id="wyksztalcenie1">
+            2017 - 2020 University of Economics in Katowice (Bachelor's degree)
+        </div>
+
+        <div class="line"></div>
+
+        <div class="wyksztalcenieZawartosc" id="wyksztalcenie2">
+            2014 - 2017 Secondary school No 1 in Ruda Śląska 
+        </div>
+        
+    </div>
+
+    <div class="luka"></div>
+
+    <div class= "box" id="box7" style="display: block;" onclick="SwapDivsWithClick('box7','box8')">
+        <h2>Abilities</h2>       
+    </div>
+    <div class= "box" id="box8" style="display: none;" onclick="SwapDivsWithClick('box7','box8')">
+        
+        <div class="doswiadczenieZawartosc">
+
+        GRAPHICS PROGRAMS<br>
+        <div class="line2"></div>
+
+        <h7>Adobe Illustrator</h7><br>
+        <h7>Adobe Photoshop</h7><br>
+        <h7>JPixel</h7><br>
+        <h7>Gimp2</h7><br>
+        <h7>Inscape</h7><br>
+        <h7>3ds MAX</h7><br>
+        <h7>Blender</h7><br>
+        <h7>Krita</h7><br>
+        <h7>Figma</h7>
+        <br>
+        <br>
+    
+        ENVIRONMENTS<br>
+        <div class="line2"></div>
+    
+        <h7>Unity</h7><br>
+        <h7>Visual Studio</h7><br>
+        <h7>Visual Studio Code</h7><br>
+        <h7>Management Studio</h7><br>
+        <h7>Star UML</h7><br>
+        <h7>Intellij</h7><br>
+        <h7>Spyder</h7>
+        <br>
+        <br>
+
+         PROGRAMMING LANGUAGES<br>
+        <div class="line2"></div>
+
+        <h7>Python</h7><br>
+        <h7>HTML, CSS, JAVASCRIPT</h7><br>
+        <h7>C#</h7><br>
+        <h7>SQL</h7><br>
+        <h7>JAVA</h7>
+        <br>
+        <br>
+           
+       OFFICE PACKAGE<br>
+       <div class="line2"></div>
+
+        <h7>Word</h7><br>
+        <h7>PowerPoint</h7><br>
+        <h7>Excel</h7><br>
+        <br>
+        <br>
+        
+        LANGUAGES<br>
+        <div class="line2"></div>
+  
+        <h7>Angielski (B2)</h7><br>
+        <br>
+        <br> 
+        </div>
+    </div>
+
+    <div class="luka"></div>
+
+    <div class= "box" id="box11" style="display: block;" onclick="SwapDivsWithClick('box11','box12')">
+        <h2>Clause</h2>       
+    </div>
+    <div class= "box" id="box12" style="display: none;" onclick="SwapDivsWithClick('box11','box12')">
+
+        <div class="doswiadczenieZawartosc">
+
+        <h4>I consent to the processing of my personal data<br> 
+        for the purposes to recruitment for the position I apply.</h4>      
+        
+        </div>
+    </div>
+
+    <div class="bigluka"></div>
+
+    <div class="panel" id="panel2">
+        <h1>Portfolio</h1>
+    </div>
+
+    <div class="luka"></div>
+
+    <div class= "box boxGrafiki dwaD" id="box13" style="display: block;" onclick="SwapDivsWithClick('box13','box14')">
+        <h2>2D graphics</h2>       
+    </div>
+    <div class= "box" id="box14" style="display: none;" onclick="SwapDivsWithClick('box13','box14')">
+        
+        <div class="doswiadczenieZawartosc">
+            
+            Website project<br>
+            <img class="rownosscZdj" id="img15" src= "prace/www/www-planet.png"><br>
+            <br>
+            <br>
+            
+            Graphics for game ,,Delirium" <br>
+            <img class="rownosscZdj" id="img1" src= "prace/delirium2D/Mieszkanie.png"><br>
+            <img class="rownosscZdj" id="img2" src= "prace/delirium2D/demon.gif"><br>
+            <img class="rownosscZdj" id="img3" src= "prace/delirium2D/demon3.gif"><br>
+            <br>
+            <br>
+
+            Graphics for game ,,LocoRush"<br>
+            <img class="rownosscZdj" id="img4" src= "prace/locorush/locomenu.png"><br>
+            <img class="rownosscZdj" id="img4" src= "prace/locorush/locogame.png"><br>
+            <br>
+            <br>
+
+            Aplication<br>
+            <video width="520" height="810" controls>
+                <source src="prace/apliakcja/app.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+              <br>
+              <br>
+
+            Animation<br>
+            <video width="600" height="600" controls>
+                <source src="prace/animacjaR/TatooAnimate.mov" type="video/mov">
+                <source src="prace/animacjaR/TatooAnimate.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video><br>
+              <br>
+              <br>
+
+            Ikons<br>
+            <img class="rownosscZdj" id="img5" src= "prace/ikonyDoGry/KLAMSTWO.png"><br>
+            <br>
+            <br>
+
+            Poster project<br>
+            <img class="rownosscZdj" id="img6" src= "prace/wlasne/got.png"><br>
+            <br>
+            <br>
+
+            Poster project<br>
+            <img class="rownosscZdj" id="img7" src= "prace/wlasne/float.png"><br>
+            <br>
+            <br>
+
+            Poster project<br>
+            <img class="rownosscZdj" id="img8" src= "prace/wlasne/Mbrodaci.png"><br>
+            <br>
+            <br>
+
+        </div>  
+
+        </div>
+
+    <div class="luka"></div>
+
+    <div class= "box boxGrafiki trzyD" id="box15" style="display: block;" onclick="SwapDivsWithClick('box15','box16')">
+        <h2>3D projects</h2>       
+    </div>
+    <div class= "box" id="box16" style="display: none;" onclick="SwapDivsWithClick('box15','box16')">
+        
+        <div class="doswiadczenieZawartosc">
+
+            Room project made in 3DsMaxx<br>
+            <img class="rownosscZdj" id="img12" src= "prace/pokoj3d/pokoj2.jpg"><br>
+            <br>
+            <br>
+
+            Models for mobile game made in Blender<br>
+            <img class="rownosscZdj" id="img14" src= "prace/eat3D/snowLVL.png"><br>
+            <img class="rownosscZdj" id="img13" src= "prace/eat3D/BasicSkin.png"><br>
+            <img class="rownosscZdj" id="img13" src= "prace/eat3D/mexican.png"><br>
+            <img class="rownosscZdj" id="img13" src= "prace/eat3D/Wizard.png"><br>
+            <img class="rownosscZdj" id="img13" src= "prace/eat3D/pizza.png"><br>
+            <img class="rownosscZdj" id="img13" src= "prace/eat3D/Ice.png"><br>
+            <img class="rownosscZdj" id="img13" src= "prace/eat3D/carrot.png"><br>
+            <img class="rownosscZdj" id="img13" src= "prace/eat3D/presentRed.png"><br>
+            <br>
+            <br>            
+
+        </div>   
+
+        </div>
+
+    <div class="luka"></div>
+
+    <div class= "box boxGrafiki wizytowki" id="box17" style="display: block;" onclick="SwapDivsWithClick('box17','box18')">
+        <h2>Business cards</h2>       
+    </div>
+    <div class= "box" id="box18" style="display: none;" onclick="SwapDivsWithClick('box17','box18')">
+        
+        <div class="doswiadczenieZawartosc">
+
+            Business card for persnal trainer<br>
+            <img class="rownosscZdj" id="img10" src= "prace/wizytowka/wiz.png"><br>
+            <br>
+            <br>
+
+            Business card ,,WesTrek"<br>
+            <img class="rownosscZdj" id="img11" src= "prace/wesTrek/wizytowka.png"><br>
+            <br>
+            <br>
+
+        </div>       
+
+        </div>
+
+    <div class="luka"></div>
+
+    <div class= "box boxGrafiki wlasneG" id="box19" style="display: block;" onclick="SwapDivsWithClick('box19','box20')">
+        <h2>Video clips</h2>       
+    </div>
+    <div class= "box" id="box20" style="display: none;" onclick="SwapDivsWithClick('box19','box20')">
+        
+        <div class="doswiadczenieZawartosc">
+
+       
+            Link to the original: <a id="link" href="https://www.youtube.com/watch?v=iQtbvOHrPoo" target="_blank">https://www.youtube.com/watch?v=iQtbvOHrPoo</a>
+          
+          
+            <br>
+          
+            Link to the original: <a id="link" href="https://www.youtube.com/watch?v=ZpiGFbZXndg&ab_channel=dejfiistg" target="_blank">https://www.youtube.com/watch?v=ZpiGFbZXndg&ab_channel=dejfiistg</a>
+           
+        </div>
+
+    </div>
+    
+    <div class="luka"></div>
+
+    <div class="panel" id="panel3">
+        <h1>Projects</h1>
+    </div>
+
+
+    <div class="luka"></div>
+
+
+    <div class= "box boxGrafiki wizytowki" id="box21" style="display: block;">
+        <a id ="link" href="TSP(Komiwojażer).zip" download target="_blank"><h2>Python</h2> </a>      
+    </div>
+
+    <div class="luka"></div>
+
+    <div class= "box boxGrafiki wizytowki" id="box23" style="display: block;">
+        <a id ="link" href="TSP(Komiwojażer).zip" download target="_blank"><h2>Java</h2> </a>       
+    </div>
+
+    <div class="luka"></div>
+
+
+    <div class= "box boxGrafiki wizytowki" id="box25" style="display: block;">
+        <a id ="link" href="TSP(Komiwojażer).zip" download target="_blank"><h2>C#</h2> </a>  
+    </div>
+
+    <div class="bigluka"></div>
+
+</body>
+</html>

@@ -1,0 +1,479 @@
+@font-face {
+    font-family: "Righteus";
+    src: url("./fonts/Righteus.ttf");
+}
+@font-face {
+    font-family: "AdventPro";
+    src: url("./fonts/Advent/AdventPro-Light.ttf");
+}
+@import url('https://fonts.googleapis.com/css?family=Barlow:800&display=swap');
+body {background-color:white; width: 100%;}
+* {margin:0px; font-size: 19px;}
+html { scroll-behavior: smooth;} 
+a{color: white;}
+#link{color: gray !important;}
+
+.header-grid-conteiner{
+    height: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    top: 0;
+    width: 100%;
+    background-color: white; 
+}
+
+.header-grid-item{
+    text-align: center;  
+    padding-top: 10px;
+}
+.header-grid-item:hover{color: gray !important;}
+
+.flag{
+    height: 33px;
+    width: 47px;
+    margin: 0 auto;
+}
+.button{
+    display: inline;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: none;
+    height: 33px;
+    width:47px;
+    margin-top: 10px;
+}
+h1{
+    font-size: 45px;
+    font-family: "Righteus";
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+}
+h2{
+    text-align: left; 
+    font-size: 24px !important;
+    font-family: "AdventPro";
+    margin-left: 20px;  
+    color: gray;
+}
+h5{
+    font-size: 24px !important;
+    font-family: "AdventPro";
+    text-align: center;
+    color: gray;
+}
+h6{
+    font-size: 24px !important;
+    font-family: "AdventPro";
+    text-align: center;
+}
+h7{
+    font-size: 20px !important;
+    font-family: "AdventPro";
+    text-align: center;
+}
+h8{
+    font-size: 16px !important;
+    font-family: "AdventPro";
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+h3,h4,h6,h7,h8{color: black;}
+
+.mainBox{
+    width: 80%;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 50px !important; 
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.box{
+    width: 80%;
+    height: 50px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: gray;
+    margin: 0 auto; 
+    padding-top: 1%;
+    background-color: white;
+}
+.panel{
+    width: 100%;
+    height: 300px; 
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#panel1{background-image: url("./image/KingaCube.png");}
+#panel2{background-image: url("./image/background2.png"); text-shadow: red 2px 2px 2px;}
+#panel3{background-image: url("./image/tloCode.png"); text-shadow: black 2px 2px 2px;}
+
+#box1:hover{background-color: rgba(90, 152, 225,0.5);}
+#box3:hover{background-color: rgba(147,112,219,0.5);}
+#box5:hover{background-color: rgba(206, 169, 0,0.5);}
+#box7:hover{background-color: rgba(254, 19, 15,0.5);}
+#box9:hover{background-color: rgba(9, 92, 212,0.5);}
+#box11:hover{background-color:rgba(22, 182, 92,0.5);}
+#box13:hover{background-color:rgba(223, 0, 36,0.5);}
+#box15:hover{background-color:rgba(243, 195, 0,0.5);}
+#box17:hover{background-color:rgba(0, 172, 159,0.5);}
+#box19:hover{background-color:rgba(46, 109, 180,0.5);}
+#box21:hover{background-color:rgba(46, 109, 180,0.5);}
+#box23:hover{background-color:rgba(243, 195, 0,0.5);}
+#box25:hover{background-color: rgba(254, 19, 15,0.5);}
+
+.pobierzCV{
+    bottom: 5px;
+    text-align: right;
+}
+.luka{
+    margin: 0 auto;
+    width: 80%;
+    height: 8px;
+}
+.bigluka{
+    margin: 0 auto;
+    width: 80%;
+    height: 200px;
+}
+
+/* Zakładka Dane osobowe*/
+
+#box2{height: 370px !important;}
+
+.rownoscDO{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.laczenieKolumn{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.lewaKolumna{
+    margin-left: 43%;
+}
+.srodekKolumna{
+    font-size: 24px !important;
+    font-family: "AdventPro";
+    margin-top: 80px;
+    margin-right: 10px;
+    color: rgb(90, 152, 225);;
+    text-align: right;
+}
+.prawaKolumna{
+    font-size: 24px !important;
+    font-family: "AdventPro";
+    margin-top: 80px;
+    color: black;
+    padding-right: 40px;
+   
+}
+.cvJpg{
+    height: 350px;
+    margin-left: 10px;
+    bottom: 0px;
+    float: left;
+}
+/* Doswiadczenie zawodowe*/
+
+.doswiadczenieZawartosc{
+    font-size: 24px !important;
+    font-family: "AdventPro";
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+#box4{
+    height: 560px !important;
+}
+#box14{
+    height: 7000px !important;
+}
+.firmy{
+    color: rgb(147,112,219); 
+    font-size: 24px !important;
+}
+/*Wykształcenie zawodowe*/
+
+.wyksztalcenieZawartosc{
+    font-size: 24px !important;
+    font-family: "AdventPro";
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+#wyksztalcenie1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#wyksztalcenie2{
+    margin-top: 5px;
+}
+#box6{
+    height: 220px !important;
+}
+.line{
+    margin: auto;
+    width: 70%;
+    height: 2px;
+    background-color: rgb(206, 169, 0);
+}
+/* Zakładka Uiejętności*/
+.line2{
+    margin: auto;
+    width: 300px;
+    height: 2px;
+    background-color: rgb(254, 19, 15);
+}
+
+#box8{
+    overflow: hidden;
+    height: 1000px !important;
+    margin: 0 auto;
+}
+.naglowekG, .naglowekP, .naglowekPO, .naglowekJ{
+    width: 200px;
+    font-size: 24px !important;
+    font-family: "AdventPro";
+    text-align: center;
+    padding-top: 10px;
+}
+.naglowekG, .naglowekP{
+    height: 70px;
+    color: black;
+}
+.naglowekPO, .naglowekJ{
+    height: 40px;
+    color: black;
+}
+.boxProgramowanie, .boxGrafika, .boxPakietO, .boxJezyki{
+    height: 180px;
+    width: 200px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgba(254, 19, 15,0.9);
+    border-width: 3px;
+    margin-bottom: 10px; 
+    font-size: 24px !important;
+    font-family: "AdventPro";
+    text-align: center;
+    color: black;
+}
+.boxGrafika, .boxProgramowanie, .boxPakietO, .boxJezyki{
+    background-color: black;
+}
+
+.box1U{
+    float: left;
+    margin-right: 10px;
+}
+.box3U{
+    float: left;
+    margin-right: 10px;
+}
+.caloscU{
+    margin: 0 auto; 
+}
+.rownoscU{
+    display: flex;
+    margin: 0 auto;
+}
+#box12{
+    height: 180px !important;
+}
+/* Prace ----------------*/
+
+/* DELIRIUM ----------------*/
+
+.rownoscZdj{
+    margin: 0 auto;
+    display: block;
+}
+#img1{  
+    margin-top: 10px;
+    height: 420px; 
+    width: 720px;
+    margin-bottom: 20px;
+}
+#img2{
+    margin-top: 10px;
+    height: 100px; 
+    width: 100px;
+    margin-bottom: 10px;
+}
+#img3{
+    margin-top: 10px;
+    height: 100px; 
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* LocoRush ----------------*/
+#img4{
+    margin-top: 10px;
+    height: 451px;
+    width: 809px;
+    margin-bottom: 10px;
+}
+
+/* Ikony----------------------*/
+#img5{
+    margin-top: 10px;
+    height: 240px;
+    width: 590px;
+    margin-bottom: 10px;
+}
+
+/* Rick and Morty-----------------------*/
+#img6{
+    margin-top: 10px;
+    height: 468px;
+    width: 877px;
+}
+
+/* You will float too-----------------------*/
+#img7{
+    margin-top: 10px;
+    height: 468px;
+    width: 468px;
+}
+/* Mocno brodaci-----------------------*/
+#img8{
+    margin-top: 10px;
+    height: 1017px;
+    width: 700px;
+}
+
+/* Zakladka-----------------------*/
+#img9{
+    margin-top: 10px;
+    height: 627px;
+    width: 448px;
+}
+
+/* wizytowki-----------------------*/
+#img10{
+    margin-top: 10px;
+    height: 520px;
+    width: 768px;
+}
+
+#box18{
+    height: 1200px !important;
+}
+
+#box20{
+    height: 200px !important;
+}
+#box22{
+    height: 1000px !important;
+}
+#box24{
+    height: 1000px !important;
+}
+#box26{
+    height: 1000px !important;
+}
+
+#img11{
+    margin-top: 10px;
+    height: 418px;
+    width: 752px;
+}
+model-viewer{
+    height: 500px;
+    width: 500px;
+}
+/* 3D -----------------------*/
+#img12{
+    margin-top: 10px;
+    height: 600px;
+    width: 800px;
+}
+#img13{
+    margin-top: 10px;
+    height: 480px;
+    width: 640px;
+}
+#img14{
+    margin-top: 10px;
+    height: 615px;
+    width: 344px;
+}
+#img15{
+    margin-top: 10px;
+    height: 520px;
+    width: 960px;
+}
+
+
+
+#box16{
+    height: 5200px !important;
+}
+
+#pokoj{
+    height: 492px;
+    width: 780px;
+}
+#wizytowka{
+    height: 540px;
+    width: 769px;
+}
+#app{
+    height: 540px;
+    width: 270px;
+}
+/* Właściwości dla zmniejszonego okna*/
+
+@media screen and (max-width: 768px) {
+    .box1U, .box3U{
+        
+        float: none;
+    }
+    #box2{
+        height: 1100px !important;
+    }
+    .rownoscDO{
+        grid-template-columns: auto;   
+        margin: 0 auto;
+    }
+    .mainBox{
+         height: 60px !important;
+    }
+    h1{
+        font-size: 40px ;
+    }
+    .pobierzCV{
+        margin-bottom: 40px !important; 
+    }
+    .lewaKolumna{
+    margin-left: 10% !important;
+}
+}
+
+@media screen and (max-width: 870px) {
+    #box4{
+        height: 760px !important;
+    }
+   
+}
+@media screen and (max-width: 1050px) {
+    video, img{
+        margin: 0 auto;
+        
+        max-width: 90%;
+        height: auto !important;
+    }
+}
+@media screen and (max-width: 1450px) {
+    .header-grid-conteiner{
+        height: 70px !important;
+    }
+}
