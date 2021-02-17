@@ -193,7 +193,7 @@ h3,h4,h6,h7,h8{color: black;}
     height: 560px !important;
 }
 #box14{
-    height: 7000px !important;
+    height: 7500px !important;
 }
 .firmy{
     color: rgb(147,112,219); 
@@ -346,8 +346,8 @@ h3,h4,h6,h7,h8{color: black;}
 /* Mocno brodaci-----------------------*/
 #img8{
     margin-top: 10px;
-    height: 1017px;
-    width: 700px;
+    height: 960px;
+    width: 530px;
 }
 
 /* Zakladka-----------------------*/
@@ -410,6 +410,11 @@ model-viewer{
     margin-top: 10px;
     height: 520px;
     width: 960px;
+}
+#img16{
+    margin-top: 10px;
+    height: 520px;
+    width: 520x;
 }
 
 
