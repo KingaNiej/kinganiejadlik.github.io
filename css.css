@@ -365,7 +365,7 @@ h3,h4,h6,h7,h8{color: black;}
 }
 
 #box18{
-    height: 1200px !important;
+    height: 1860px !important;
 }
 
 #box20{
@@ -379,6 +379,9 @@ h3,h4,h6,h7,h8{color: black;}
 }
 #box26{
     height: 1000px !important;
+}
+#box28{
+    height: 730px !important;
 }
 
 #img11{
@@ -415,6 +418,16 @@ model-viewer{
     margin-top: 10px;
     height: 520px;
     width: 520x;
+}
+#img17{
+    margin-top: 10px;
+    height: 532px;
+    width: 589x;
+}
+#img18{
+    margin-top: 10px;
+    height: 620px;
+    width: 861.5px;
 }
 
 
