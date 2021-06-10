@@ -49,7 +49,7 @@ h1{
     font-family: "Righteus";
     color: white;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 100px;
 }
 h2{
     text-align: left; 
@@ -316,10 +316,10 @@ h3,h4,h6,h7,h8{color: black;}
 
 /* LocoRush ----------------*/
 #img4{
-    margin-top: 10px;
+    margin-top: 30px;
     height: 451px;
     width: 809px;
-    margin-bottom: 10px;
+
 }
 
 /* Ikony----------------------*/
@@ -333,15 +333,15 @@ h3,h4,h6,h7,h8{color: black;}
 /* Rick and Morty-----------------------*/
 #img6{
     margin-top: 10px;
-    height: 468px;
-    width: 877px;
+    height: 418px;
+    width: 817px;
 }
 
 /* You will float too-----------------------*/
 #img7{
     margin-top: 10px;
-    height: 468px;
-    width: 468px;
+    height: 418px;
+    width: 418px;
 }
 /* Mocno brodaci-----------------------*/
 #img8{
@@ -349,7 +349,11 @@ h3,h4,h6,h7,h8{color: black;}
     height: 960px;
     width: 530px;
 }
-
+#uro{
+    margin-top: 10px;
+    height: 960px;
+    width: 630px;
+}
 /* Zakladka-----------------------*/
 #img9{
     margin-top: 10px;
@@ -410,22 +414,23 @@ model-viewer{
     width: 344px;
 }
 #img15{
-    margin-top: 10px;
-    height: 520px;
-    width: 960px;
+    margin-top: 30px;
+    height: 700px;
+    width: 1225px;
 }
 #img16{
-    margin-top: 10px;
-    height: 520px;
-    width: 520x;
+    margin-top: 3px;
+    height: 600px;
+    width: 600px;
+    padding-bottom: 6px;
 }
 #img17{
-    margin-top: 10px;
+    margin-top: 30px;
     height: 532px;
     width: 589x;
 }
 #img18{
-    margin-top: 10px;
+    margin-top: 30px;
     height: 620px;
     width: 861.5px;
 }
@@ -448,6 +453,68 @@ model-viewer{
     height: 540px;
     width: 270px;
 }
+
+#kliz{
+    height: 610px;
+    width: 280px;
+}
+#eat{
+    height: 640px;
+    width: 360px;
+}
+#coffe{
+    height: 700px;
+    width: 1225px;
+}
+#logoE{
+    height: 600px;
+    width: 600px;
+}
+#husLogo{
+    height: 291px;
+    width: 1200px;
+}
+#scafIcon{
+    height: 290px;
+    width: 290px;
+}
+
+
+/*gridy */
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  margin: 40px;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    margin: 40px;
+  }
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    margin: 40px;
+  }
+
+  .grid-container3-hadesuro {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 55px;
+    margin: 40px;
+  }
+
+
+
+
+
+
+
+
 /* Właściwości dla zmniejszonego okna*/
 
 @media screen and (max-width: 768px) {
