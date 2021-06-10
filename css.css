@@ -98,10 +98,10 @@ h3,h4,h6,h7,h8{color: black;}
     border-style: solid;
     border-width: 3px;
     border-radius: 20px;
-    border-color: gray;
+    border-color: rgba(128, 128, 128, 0);
     margin: 0 auto; 
     padding-top: 1%;
-    background-color: white;
+    background-color: rgb(236, 230, 230);
 }
 .panel{
     width: 100%;
@@ -109,8 +109,8 @@ h3,h4,h6,h7,h8{color: black;}
     margin-top: 10px;
     margin-bottom: 5px;
 }
-#panel1{background-image: url("./image/KingaCube.png");}
-#panel2{background-image: url("./image/background2.png"); text-shadow: red 2px 2px 2px;}
+#panel1{background-image: url("./image/KingaCube.png"); margin-bottom: 0;}
+#panel2{background-image: url("./image/background2.png"); text-shadow: red 2px 2px 2px; margin-top: 0;}
 #panel3{background-image: url("./image/tloCode.png"); text-shadow: black 2px 2px 2px;}
 
 #box1:hover{background-color: rgba(90, 152, 225,0.5);}
@@ -134,7 +134,7 @@ h3,h4,h6,h7,h8{color: black;}
 .luka{
     margin: 0 auto;
     width: 80%;
-    height: 8px;
+    height: 13px;
 }
 .bigluka{
     margin: 0 auto;
