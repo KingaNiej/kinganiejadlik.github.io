@@ -58,6 +58,14 @@ h2{
     margin-left: 20px;  
     color: gray;
 }
+
+a{
+    text-align: center; 
+    font-size: 24px !important;
+    font-family: "AdventPro";
+    margin-left: 20px;  
+    color: gray;
+}
 h5{
     font-size: 24px !important;
     font-family: "AdventPro";
@@ -97,6 +105,11 @@ h8{
 
 h3,h4,h6,h7,h8{color: black;}
 
+#link{
+   
+    padding-left: 41%;
+
+}
 .mainBox{
     width: 80%;
     height: 45px;
